@@ -46,7 +46,6 @@ class Block {
 	 * Registers the block.
 	 */
 	public function register_block() {
-		// Register the block.
 		register_block_type_from_metadata(
 			$this->plugin->dir(), // this is the directory where the block.json is found.
 			[
